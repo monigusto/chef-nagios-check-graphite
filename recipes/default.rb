@@ -21,7 +21,7 @@ include_recipe "git"
 include_recipe "nagios"
 
 git "/opt/check-graphite" do
-  repository "git://github.com/jedi4ever/nagios_tools.git"
+  repository "git://github.com/monigusto/chef-nagios-check-graphite.git"
   reference "0f522dcee37538f670ffb1134045fb9d4358dd13"
   action :sync
 end
